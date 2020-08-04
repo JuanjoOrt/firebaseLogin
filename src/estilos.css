@@ -1,0 +1,55 @@
+.background{
+    background-color: #7070FF   ;
+    width: 100%;
+    height: 100vh;
+    display: flex   ;
+}
+
+.main-container{
+    background: #F8F7FF;
+    width: 30rem;
+    height: 20rem;
+    margin: 11rem auto;
+    box-shadow: 1px 3px 13px -3px rgba(0,0,0,0.75);
+}
+
+.form-body{
+    width: 22rem;
+    height: 10rem;
+    margin: 5.5rem auto;
+    
+}
+
+.input-editable{
+    position: relative;
+}
+
+.input-editable input[type="text"]{
+    width: 100%;
+    height: 2.5rem;
+    padding-left: 2.3rem;
+    box-sizing: border-box; 
+    border-radius: 4px;
+    margin-bottom: .5rem;
+    border-color: black;
+    font-size: 16px;
+}
+
+input[type="text"]:focus{
+    border-color: lime;
+}
+
+.input-editable img{
+    width: 1.3rem;
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    fill: blue;
+}
+
+
+input[type="submit"]{
+    width: 100%;
+    height: 2.5rem;
+
+}
