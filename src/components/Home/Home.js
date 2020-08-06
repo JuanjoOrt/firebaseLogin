@@ -5,6 +5,8 @@ export default function Logged() {
 
 
     return <div className="background">
-            Home
+        <div className="main-container">
+            Home 
+        </div>
     </div>
 }
