@@ -1,7 +1,7 @@
 import * as firebase from "firebase";
 import "firebase/auth";
 
-const firebaseConfig = {
+const app = {
     apiKey: "AIzaSyCY41_VgO4M3L6GzxOERyHm2tbmcEGNwZw",
     authDomain: "fir-login-24dc8.firebaseapp.com",
     databaseURL: "https://fir-login-24dc8.firebaseio.com",
@@ -11,8 +11,6 @@ const firebaseConfig = {
     appId: "1:628813199588:web:f0e2dd105bcd4cacff54f1"
   };
 
-  firebase.initializeApp(firebaseConfig)
-
   const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
-  export {googleAuthProvider}
+  export {app, googleAuthProvider}
